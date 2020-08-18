@@ -10,12 +10,22 @@
 
 @interface AppDelegate ()
 
+// 菜单空间和状态栏按钮
+@property (weak) IBOutlet NSMenu *menu;
+@property (nonatomic, strong) NSStatusItem *status_item;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    
+    // 创建状态栏按钮，并自定义图片
+    self.status_item = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    NSImage *image = [NSImage imageNamed:@"LogoStatus"];
+    image.size = NSMakeSize(18, 18);
+    [self.status_item.button setImage:image];
+    self.status_item.menu = self.menu;
 }
 
 
@@ -23,5 +33,8 @@
     // Insert code here to tear down your application
 }
 
+- (IBAction)quit:(id)sender {
+    [[NSApplication sharedApplication] terminate:self];
+}
 
 @end

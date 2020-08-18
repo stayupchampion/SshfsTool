@@ -673,7 +673,24 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
+                    <connections>
+                        <outlet property="menu" destination="nFK-gf-fqb" id="9Q5-4s-PqA"/>
+                    </connections>
+                </customObject>
+                <menu id="nFK-gf-fqb">
+                    <items>
+                        <menuItem title="连接" keyEquivalent="1" id="cWF-iy-PBA"/>
+                        <menuItem title="断开" keyEquivalent="2" id="tXz-MB-IDN"/>
+                        <menuItem isSeparatorItem="YES" id="xrr-N8-lua"/>
+                        <menuItem title="设置" keyEquivalent="，" id="v9V-Gd-djt"/>
+                        <menuItem title="退出" keyEquivalent="q" id="4uP-j0-l6B">
+                            <connections>
+                                <action selector="quit:" target="Voe-Tx-rLC" id="Ncv-jt-0X8"/>
+                            </connections>
+                        </menuItem>
+                    </items>
+                </menu>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
