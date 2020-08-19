@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="https://github.com/stayupchampion/SshfsTool/blob/master/SshfsTool/Assets.xcassets/AppIcon.appiconset/SshTool_256x1.png?raw=true" width=240 />
+  <img src="https://github.com/stayupchampion/SshfsTool/blob/master/SshfsTool/Assets.xcassets/AppIcon.appiconset/SshTool_512x2.png?raw=true" width=240 />
 </p>
 <p align="center">
 	<a href="https://github.com/stayupchampion/SshfsTool/blob/master/LICENSE">
 		<img src="https://img.shields.io/github/license/stayupchampion/SshfsTool"/>
     </a>
 </p>
+
 
 
 
@@ -60,16 +61,16 @@ release版 将在稍后发布
 .
 ├── LICENSE
 ├── SshfsTool
-│   ├── AppDelegate.h
-│   ├── AppDelegate.m # 实现主要逻辑
-│   ├── Assets.xcassets # app 的图片资源
-│   ├── Base.lproj
-│   │   └── Main.storyboard
-│   ├── Info.plist
-│   ├── SshfsTool.entitlements
-│   ├── WXSetVC.h
-│   ├── WXSetVC.m # 偏好设置面板
-│   └── main.m
+│   ├── AppDelegate.h
+│   ├── AppDelegate.m # 实现主要逻辑
+│   ├── Assets.xcassets # app 的图片资源
+│   ├── Base.lproj
+│   │   └── Main.storyboard
+│   ├── Info.plist
+│   ├── SshfsTool.entitlements
+│   ├── WXSetVC.h
+│   ├── WXSetVC.m # 偏好设置面板
+│   └── main.m
 └── SshfsTool.xcodeproj
 ```
 
@@ -104,4 +105,4 @@ release版 将在稍后发布
 
 ## 协议
 
-[MIT](https://github.com/stayupchampion/SshfsTool/blob/master/LICENSE) © wanx
+[MIT](https://github.com/stayupchampion/SshfsTool/blob/master/LICENSE) **©** wanx
