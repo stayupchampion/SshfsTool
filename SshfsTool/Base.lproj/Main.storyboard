@@ -681,8 +681,16 @@
                 </customObject>
                 <menu id="nFK-gf-fqb">
                     <items>
-                        <menuItem title="连接" keyEquivalent="1" id="cWF-iy-PBA"/>
-                        <menuItem title="断开" keyEquivalent="2" id="tXz-MB-IDN"/>
+                        <menuItem title="连接" keyEquivalent="1" id="cWF-iy-PBA">
+                            <connections>
+                                <action selector="item1:" target="Voe-Tx-rLC" id="M2R-iX-LJj"/>
+                            </connections>
+                        </menuItem>
+                        <menuItem title="断开" keyEquivalent="2" id="tXz-MB-IDN">
+                            <connections>
+                                <action selector="disconnect:" target="Voe-Tx-rLC" id="clk-zm-aHr"/>
+                            </connections>
+                        </menuItem>
                         <menuItem isSeparatorItem="YES" id="xrr-N8-lua"/>
                         <menuItem title="设置" keyEquivalent="," id="v9V-Gd-djt">
                             <connections>
