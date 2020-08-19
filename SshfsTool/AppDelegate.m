@@ -28,7 +28,6 @@
     self.status_item.menu = self.menu;
 }
 
-
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }

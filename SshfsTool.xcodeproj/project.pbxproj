@@ -11,6 +11,7 @@
 		A92CD02024EC1C1300AF7F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92CD01F24EC1C1300AF7F50 /* Assets.xcassets */; };
 		A92CD02324EC1C1300AF7F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92CD02124EC1C1300AF7F50 /* Main.storyboard */; };
 		A92CD02624EC1C1300AF7F50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A92CD02524EC1C1300AF7F50 /* main.m */; };
+		A92CD03424ECED7300AF7F50 /* WXSetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A92CD03324ECED7300AF7F50 /* WXSetVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		A92CD02424EC1C1300AF7F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A92CD02524EC1C1300AF7F50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A92CD02724EC1C1300AF7F50 /* SshfsTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SshfsTool.entitlements; sourceTree = "<group>"; };
+		A92CD03224ECED7300AF7F50 /* WXSetVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSetVC.h; sourceTree = "<group>"; };
+		A92CD03324ECED7300AF7F50 /* WXSetVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXSetVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 			children = (
 				A92CD01924EC1C1200AF7F50 /* AppDelegate.h */,
 				A92CD01A24EC1C1200AF7F50 /* AppDelegate.m */,
+				A92CD03224ECED7300AF7F50 /* WXSetVC.h */,
+				A92CD03324ECED7300AF7F50 /* WXSetVC.m */,
 				A92CD01F24EC1C1300AF7F50 /* Assets.xcassets */,
 				A92CD02124EC1C1300AF7F50 /* Main.storyboard */,
 				A92CD02424EC1C1300AF7F50 /* Info.plist */,
@@ -134,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92CD03424ECED7300AF7F50 /* WXSetVC.m in Sources */,
 				A92CD02624EC1C1300AF7F50 /* main.m in Sources */,
 				A92CD01B24EC1C1200AF7F50 /* AppDelegate.m in Sources */,
 			);
